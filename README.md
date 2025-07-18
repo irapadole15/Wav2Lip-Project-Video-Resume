@@ -16,9 +16,9 @@ This project uses a combination of **GenAI**, **voice cloning**, **deepfake vide
 
 ##  Input
 
-- 🎥 Interview Recording (Video + Audio)
-- 📝 Transcript of Interview
-- 🖼️ Still image or frame of candidate (optional for SadTalker/Wav2Lip)
+-  Interview Recording (Video + Audio)
+-  Transcript of Interview
+-  Still image or frame of candidate (optional for SadTalker/Wav2Lip)
 
 ---
 
@@ -257,7 +257,7 @@ We have an HD model trained on a dataset allowing commercial usage. The size of 
 Evaluation
 ----------
 
-## 🧑 Contributors
+##  Contributors
 
 * **Ira Padole** - [GitHub](http://github.com/irapadole15)
 * **Mentor / Reviewer** - [LinkedIn](https://www.linkedin.com/in/ira-padole-3487062b4)
