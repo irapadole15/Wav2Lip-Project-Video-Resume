@@ -272,7 +272,7 @@ MIT License. Use freely for academic, personal, or research purposes.
 
 ##  Contact
 
- [your.email@example.com](mailto:irapadole2004@gmail.com)
+ [irapadole2004@gmail.com](mailto:irapadole2004@gmail.com)
  [LinkedIn](https://www.linkedin.com/in/ira-padole-3487062b4) • [Portfolio](https://irapadole.com)
 
 ```
