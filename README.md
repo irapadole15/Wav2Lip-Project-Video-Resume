@@ -257,12 +257,6 @@ We have an HD model trained on a dataset allowing commercial usage. The size of 
 Evaluation
 ----------
 
-##  Contributors
-
-* **Ira Padole** - [GitHub](http://github.com/irapadole15)
-* **Mentor / Reviewer** - [LinkedIn](https://www.linkedin.com/in/ira-padole-3487062b4)
-
----
 
 ##  License
 
