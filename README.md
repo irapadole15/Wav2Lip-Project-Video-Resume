@@ -238,25 +238,6 @@ You can download [the pre-trained weights](#getting-the-weights) if you want to 
 ```bash
 python color_syncnet_train.py --data_root lrs2_preprocessed/ --checkpoint_dir <folder_to_save_checkpoints>
 ```
-##### Training the Wav2Lip models
-You can either train the model without the additional visual quality discriminator (< 1 day of training) or use the discriminator (~2 days). For the former, run: 
-```bash
-python wav2lip_train.py --data_root lrs2_preprocessed/ --checkpoint_dir <folder_to_save_checkpoints> --syncnet_checkpoint_path <path_to_expert_disc_checkpoint>
-```
-To train with the visual quality discriminator, you should run `hq_wav2lip_train.py` instead. The arguments for both files are similar. In both cases, you can resume training as well. Look at `python wav2lip_train.py --help` for more details. You can also set additional less commonly-used hyper-parameters at the bottom of the `hparams.py` file.
-Training on datasets other than LRS2
-------------------------------------
-Training on other datasets might require modifications to the code. Please read the following before you raise an issue:
-- You might not get good results by training/fine-tuning on a few minutes of a single speaker. This is a separate research problem, to which we do not have a solution yet. Thus, we would most likely not be able to resolve your issue. 
-- You must train the expert discriminator for your own dataset before training Wav2Lip.
-- If it is your own dataset downloaded from the web, in most cases, needs to be sync-corrected.
-- Be mindful of the FPS of the videos of your dataset. Changes to FPS would need significant code changes. 
-- The expert discriminator's eval loss should go down to ~0.25 and the Wav2Lip eval sync loss should go down to ~0.2 to get good results. 
-When raising an issue on this topic, please let us know that you are aware of all these points.
-We have an HD model trained on a dataset allowing commercial usage. The size of the generated face will be 192 x 288 in our new model.
-Evaluation
-----------
-
 
 ##  License
 
